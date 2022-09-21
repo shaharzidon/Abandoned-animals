@@ -1,0 +1,27 @@
+.petForm-form{
+    margin: 10%;
+    text-align: right;
+}
+.petForm-form-sections-sec1{
+    margin: 10%;
+}
+.petForm-form-sections-sec2{
+    margin: 10%;
+}
+.petForm-form-sections-sec3{
+    margin: 10%;
+}
+.petForm-form-sections-sec4{
+    margin: 10%;
+
+}
+.petForm-form-sections-sec1-group-control{
+    background-color: rgb(215, 215, 215);
+}
+.petForm-form-sections-sec4-group-control{
+    background-color: rgb(215, 215, 215);
+}
+
+.petForm-form-sections-sec1-select{
+    background-color: rgb(215, 215, 215);
+}
