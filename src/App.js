@@ -1,10 +1,12 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import PetForm from './components/petForm/PetForm';
 import Image from './Image';
 
 function App() {
   return (
     <div className="App">
-       <Image/>
+      <PetForm></PetForm>
     </div>
   );
 }
