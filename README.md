@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Abandoned-animals-reporter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In our Abandoned-animals-reporter web application the citizen can report about abandoend animals and the report will go to the inspector(Link: [inspector](https://github.com/AchiyaAvrahamof/Abandoned-animals-inspector)).
 
-## Available Scripts
+## Table Of Contents <a name="Table"></a>
+- [Table Of Contents](#Table)
+- [Why it made and why you should use it](#why)
+- [How to run](#run)
+- [Screenshots](#Screenshots)
+- [Technologies](#Technologies)
+- [What next](#next)
 
+
+## Why it made and why you should use it <a name="why"></a>
+1. In order to create communication between the citizen and the inspector from the municipality.
+2. It let you to add a report easy and fast.
+
+
+## Running the project <a name="run"></a>
 In the project directory, you can run:
 
-### `npm start`
+1.Clone the repo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2.Run `npm install`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3.run `npm start`
 
-### `npm test`
+4.Navigate to `http://localhost:3000`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.Clone the server repo.
 
-### `npm run build`
+2.Run `npm install`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3.run `nodemon server.js`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+to go to the inspector go to [inspector](https://github.com/AchiyaAvrahamof/Abandoned-animals-inspector)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots <a name="Screenshots"></a>
+The From, just fill all the data and add a photo and that it! the insector will get alert about the the report.
 
-### `npm run eject`
+![alt text](https://res.cloudinary.com/dptzubs72/image/upload/v1666179977/2022-10-19_8_d2e1fb.png)
+ 
+## Technologies <a name="Technologies"></a>
+   Client:
+   
+   -ReactJs
+   
+   
+   Server:
+   
+   -Node.js
+   
+   -express
+   
+   -mongoDB
+   
+## What next <a name="next"></a>
+- [ ] fix send bug
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
