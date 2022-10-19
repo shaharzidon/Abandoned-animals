@@ -1,7 +1,7 @@
 import './petForm.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Axios from 'axios'
 import axios from 'axios'
 
@@ -20,6 +20,7 @@ function PetForm() {
   const [phoneNumbery, setPhoneNumbery] = useState("")
   const [emaily, setEmaily] = useState("")
   const [namey, setNamey] = useState("")
+  const [submited, setSubmited] = useState(false)
 
   const state = [{
     place: placey,
@@ -49,15 +50,18 @@ function PetForm() {
     axios.post('api/animals', report)
       .then(console.log(report))
   }
-
+   
   const submit = () => {
     uploadImage()
-
-    postReport(state)
-    alert("הדיווח נשלח")
+    setSubmited(true)
 
   }
-
+  useEffect(()=>{
+    if(submited!=false){
+      postReport(state)
+      alert("הדיווח נשלח")
+    }
+  },[imageUrl])
 
 
 
@@ -69,7 +73,7 @@ function PetForm() {
           <div className='petForm-form-sections-pic1'>
             <div className='petForm-form-sections-sec0'>
               <h1 className='petForm-form-sections-sec0-title'>
-                טופס אובדן חיית מחמד
+              טופס דיווח על בעל חיים נטוש
               </h1>
             </div>
           </div>
