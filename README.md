@@ -27,7 +27,7 @@ In the project directory, you can run:
 
 4.Navigate to `http://localhost:3000`.
 
-1.Clone the server repo.
+1.Clone the server repo [server repo](https://github.com/AchiyaAvrahamof/Abandoned-animals-server).
 
 2.Run `npm install`.
 
