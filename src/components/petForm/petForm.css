@@ -1,87 +1,99 @@
-body{
-    /* background-color: rgb(177, 71, 44); */
-    /* rgb(221, 120, 61) */
+* {
+  font-family: 'fantasy';
 }
-.petForm{
-    /* background-color: rgb(177, 71, 44); */
-    margin-top: 0;
+body {
+  /* background-color: rgb(177, 71, 44); */
+  /* rgb(221, 120, 61) */
 }
-
-.petForm-form-sections-sec0{
-        text-align: center;
-        text-transform: uppercase;
-        padding-bottom: 2vh;
-      }
-
-
-      .petForm-form-sections-sec0-title{
-        font-size: 8vh;
-        text-shadow: 3px 3px #a09c9c;
-      }
-
-
-.petForm-form{
-    text-align: right;
-    background-color: rgb(177, 71, 44,0.6);
- 
-}
-.petForm-form-sections-pic1{
-    height: 30vh;
-    background-image: url(pet1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-}
-.petForm-form-sections-sec0{
-    text-align: center;
-    color: rgb(128, 128, 128);
-}
-.petForm-form-sections-sec1{
-    margin: 5%;
+.petForm {
+  /* background-color: rgb(177, 71, 44); */
+  margin-top: 0;
 }
 
-.petForm-form-sections-pic2{
-    background-image: url(pet1.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 50% 70%;
+.dimona-logo-img {
+  width: 15vw;
+  margin: 2vh;
+  margin-right: 42vw;
 }
-.petForm-form-sections-sec2{
-    margin: 5%;
 
+.petForm-form-sections-sec0 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 2vh;
 }
-.petForm-form-sections-sec3{
-    margin: 5%;
-}
-.petForm-form-sections-sec4{
-    margin: 5%;
-    margin-bottom: 0;
 
+.petForm-form-sections-sec0-title-desc {
+  margin: 5%;
 }
-.petForm-form-sections-sec1-group-control{
-    background-color: transparent;
+
+/* .petForm-form-sections-sec0-title {
+  font-size: 8vh;
+  color: #bebfbf;
+  margin-right: 12vw;
+} */
+
+.petForm-form-sections-sec0-title-desc {
+  color: rgba(0, 0, 0, 0.6);
 }
-.petForm-form-sections-sec3-group-control{
-    background-color: grey;
+
+.petForm-form {
+  text-align: right;
+  background: linear-gradient(rgb(0 28 119 / 76%), #bebfbf);
+}
+/* .petForm-form-sections-pic1 {
+  height: 30vh;
+  background-image: url(pet1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+} */
+.petForm-form-sections-sec0 {
+  text-align: center;
+  color: rgb(128, 128, 128);
+}
+.petForm-form-sections-sec1 {
+  margin: 5%;
+}
+
+/* .petForm-form-sections-pic2 {
+  background-image: url(pet1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 70%;
+} */
+.petForm-form-sections-sec2 {
+  margin: 5%;
+}
+.petForm-form-sections-sec3 {
+  margin: 5%;
+}
+.petForm-form-sections-sec4 {
+  margin: 5%;
+  margin-bottom: 0;
+}
+.petForm-form-sections-sec1-group-control {
+  background-color: transparent;
+}
+.petForm-form-sections-sec3-group-control {
+  background-color: grey;
 }
 /* .petForm-form-sections-sec3-group-control h{
     background-color: grey;
 } */
-.petForm-form-sections-sec4-group-control{
-    background-color: transparent;
+.petForm-form-sections-sec4-group-control {
+  background-color: transparent;
 }
-.petForm-form-sections-sec1-group-control{
-    width: 30%;
-}
-
-.petForm-form-sections-sec1-select{
-    width: 20%;
-    background-color: transparent;
-    margin-left: 80%;
-    
+.petForm-form-sections-sec1-group-control {
+  width: 30%;
 }
 
-.petForm-form-sections-sec4-btn{
-    margin-bottom: 5%;
+.petForm-form-sections-sec1-select {
+  width: 20%;
+  background-color: transparent;
+  margin-left: 80%;
+}
+
+.petForm-form-sections-sec4-btn {
+  margin-bottom: 5%;
 }

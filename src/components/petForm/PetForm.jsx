@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { useEffect, useState } from 'react';
 import Axios from 'axios'
-import axios from 'axios'
+import dimonaLogo from './uploads/dimonaLogo.png'
 
 
 function PetForm() {
@@ -43,25 +43,26 @@ function PetForm() {
 
     Axios.post("https://api.cloudinary.com/v1_1/dptzubs72/image/upload", formData)
       .then((response) => setImageUrl(response.data.secure_url))
-    console.log("secccsed upload image");
+    console.log("succeed to upload the image");
   }
 
   const postReport = (report) => {
-    axios.post('api/animals', report)
+    Axios.post(`${process.env.REACT_APP_SECRET_NAME_url}/api/animals`, report)
       .then(console.log(report))
   }
-   
+
   const submit = () => {
     uploadImage()
     setSubmited(true)
 
   }
-  useEffect(()=>{
-    if(submited!=false){
+  useEffect(() => {
+    if (submited !== false) {
       postReport(state)
       alert("הדיווח נשלח")
+
     }
-  },[imageUrl])
+  })
 
 
 
@@ -70,11 +71,17 @@ function PetForm() {
       <Form className='petForm-form'>
 
         <div className='petForm-form-sections'>
+          <div className='dimona-logo'>
+            <img className='dimona-logo-img' src={dimonaLogo} alt="Logo" />
+          </div>
           <div className='petForm-form-sections-pic1'>
             <div className='petForm-form-sections-sec0'>
-              <h1 className='petForm-form-sections-sec0-title'>
-              טופס דיווח על בעל חיים נטוש
-              </h1>
+
+            </div>
+            <div className='petForm-form-sections-sec0-desc'>
+              <h3 dir='rtl' className='petForm-form-sections-sec0-title-desc'>
+                טופס זה נועד לדיווח על חיית מחמד שאבדה לנו או שזיהינו משוטטת ברחבי העיר.
+              </h3>
             </div>
           </div>
           <div className='petForm-form-sections-sec1'>
