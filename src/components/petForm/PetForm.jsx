@@ -178,7 +178,11 @@ function PetForm() {
                 <option dir='rtl' value="חתול">חתול</option>
                 <option dir='rtl' value="ארנב">ארנב</option>
                 <option dir='rtl' value="ציפור">ציפור</option>
+                <option dir='rtl' value="אוגר">אוגר</option>
+                <option dir='rtl' value="נחש">נחש</option>
                 <option dir='rtl' value="שרקן">שרקן</option>
+                <option dir='rtl' value="צב">צב</option>
+                <option dir='rtl' value="לטאה">לטאה</option>
                 <option dir='rtl' value="אחר">אחר...</option>
 
               </Form.Select>
